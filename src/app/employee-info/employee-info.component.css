@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  mat-card {
+    margin-top: 1rem;
+  }
+  

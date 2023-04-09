@@ -1,0 +1,11 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+
+.login-container .mat-card {
+  width: 400px;
+  padding: 16px;
+}

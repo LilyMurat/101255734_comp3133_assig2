@@ -1,0 +1,26 @@
+<div style="width: 100%; text-align: center;">
+  <h2>Employee View</h2>
+</div>
+<div *ngIf="employee" class="container">
+  <mat-card>
+    <mat-card-content>
+      <p>
+        First Name:
+        <br />
+        <b style="color: blue;">{{ employee.first_name }}</b>
+        <br /><br />
+        Last Name:
+        <br />
+        <b style="color: blue;">{{ employee.last_name }}</b>
+        <br /><br />
+        Email:
+        <br />
+        <b style="color: blue;">{{ employee.email }}</b>
+      </p>
+    </mat-card-content>
+  </mat-card>
+  <br />
+  <div style="width: 100%; text-align: center;">
+    <button mat-raised-button color="warn" routerLink="/employees">Return to list</button>
+  </div>
+</div>
